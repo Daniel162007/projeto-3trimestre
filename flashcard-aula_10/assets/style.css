@@ -1,11 +1,11 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
+    --card-front-color: #131591cc;
     --card-back-color: #00F4BF;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: url('img/mini-contrato-de-dolar_waifu2x_photo_noise3_scale.png');
     font-family: Bai Jamjuree;
 }
 
@@ -27,10 +27,15 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
+    
+    /* Adicionando a imagem de fundo */
+    background-image: url('img/j3l87vXa_mid_waifu2x_photo_noise3_scale.png');  /* Substitua pelo caminho da imagem de fundo desejada */
+    background-size: cover;  /* A imagem vai cobrir todo o cartão */
+    background-position: center; /* A imagem vai ser centralizada */
+    background-repeat: no-repeat;  /* A imagem não vai se repetir */
 }
 
 .cartao__conteudo h3 {
@@ -99,7 +104,7 @@ footer p {
 @media (max-width: 560px) {
     
     body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
+        background: url('img/j3l87vXa_mid_waifu2x_photo_noise3_scale.png'),;
     }
 
     .cartao {
